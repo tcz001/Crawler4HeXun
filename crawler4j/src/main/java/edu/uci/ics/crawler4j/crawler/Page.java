@@ -17,12 +17,11 @@
 
 package edu.uci.ics.crawler4j.crawler;
 
+import edu.uci.ics.crawler4j.parser.ParseData;
+import edu.uci.ics.crawler4j.url.WebURL;
 import org.apache.http.Header;
 import org.apache.http.HttpEntity;
 import org.apache.http.util.EntityUtils;
-
-import edu.uci.ics.crawler4j.parser.ParseData;
-import edu.uci.ics.crawler4j.url.WebURL;
 
 /**
  * This class contains the data for a fetched and parsed page.

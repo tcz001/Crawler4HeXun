@@ -17,17 +17,10 @@
 
 package edu.uci.ics.crawler4j.frontier;
 
-import org.apache.log4j.Logger;
-
-import com.sleepycat.je.Cursor;
-import com.sleepycat.je.DatabaseEntry;
-import com.sleepycat.je.DatabaseException;
-import com.sleepycat.je.Environment;
-import com.sleepycat.je.OperationStatus;
-import com.sleepycat.je.Transaction;
-
+import com.sleepycat.je.*;
 import edu.uci.ics.crawler4j.url.WebURL;
 import edu.uci.ics.crawler4j.util.Util;
+import org.apache.log4j.Logger;
 
 /**
  * This class maintains the list of pages which are

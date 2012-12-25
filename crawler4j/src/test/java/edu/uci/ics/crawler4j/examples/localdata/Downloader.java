@@ -17,8 +17,6 @@
 
 package edu.uci.ics.crawler4j.examples.localdata;
 
-import org.apache.http.HttpStatus;
-
 import edu.uci.ics.crawler4j.crawler.CrawlConfig;
 import edu.uci.ics.crawler4j.crawler.Page;
 import edu.uci.ics.crawler4j.fetcher.PageFetchResult;
@@ -27,6 +25,7 @@ import edu.uci.ics.crawler4j.parser.HtmlParseData;
 import edu.uci.ics.crawler4j.parser.ParseData;
 import edu.uci.ics.crawler4j.parser.Parser;
 import edu.uci.ics.crawler4j.url.WebURL;
+import org.apache.http.HttpStatus;
 
 /**
  * This class is a demonstration of how crawler4j can be used to download a

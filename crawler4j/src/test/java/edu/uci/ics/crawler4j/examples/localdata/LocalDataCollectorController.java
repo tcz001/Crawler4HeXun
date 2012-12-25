@@ -17,13 +17,13 @@
 
 package edu.uci.ics.crawler4j.examples.localdata;
 
-import java.util.List;
-
 import edu.uci.ics.crawler4j.crawler.CrawlConfig;
 import edu.uci.ics.crawler4j.crawler.CrawlController;
 import edu.uci.ics.crawler4j.fetcher.PageFetcher;
 import edu.uci.ics.crawler4j.robotstxt.RobotstxtConfig;
 import edu.uci.ics.crawler4j.robotstxt.RobotstxtServer;
+
+import java.util.List;
 
 public class LocalDataCollectorController {
 

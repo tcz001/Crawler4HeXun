@@ -17,10 +17,10 @@
 
 package edu.uci.ics.crawler4j.url;
 
-import java.io.Serializable;
-
 import com.sleepycat.persist.model.Entity;
 import com.sleepycat.persist.model.PrimaryKey;
+
+import java.io.Serializable;
 
 /**
  * @author Yasser Ganjisaffar <lastname at gmail dot com>

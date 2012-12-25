@@ -17,13 +17,11 @@
 
 package edu.uci.ics.crawler4j.frontier;
 
-import org.apache.log4j.Logger;
-
 import com.sleepycat.je.*;
-
 import edu.uci.ics.crawler4j.crawler.Configurable;
 import edu.uci.ics.crawler4j.crawler.CrawlConfig;
 import edu.uci.ics.crawler4j.util.Util;
+import org.apache.log4j.Logger;
 
 /**
  * @author Yasser Ganjisaffar <lastname at gmail dot com>

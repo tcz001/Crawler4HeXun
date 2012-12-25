@@ -17,14 +17,13 @@
 
 package edu.uci.ics.crawler4j.fetcher;
 
-import java.io.EOFException;
-import java.io.IOException;
-
+import edu.uci.ics.crawler4j.crawler.Page;
 import org.apache.http.HttpEntity;
 import org.apache.http.util.EntityUtils;
 import org.apache.log4j.Logger;
 
-import edu.uci.ics.crawler4j.crawler.Page;
+import java.io.EOFException;
+import java.io.IOException;
 
 /**
  * @author Yasser Ganjisaffar <lastname at gmail dot com>

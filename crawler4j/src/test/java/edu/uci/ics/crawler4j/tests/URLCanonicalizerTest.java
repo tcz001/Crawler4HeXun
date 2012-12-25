@@ -1,7 +1,7 @@
 package edu.uci.ics.crawler4j.tests;
 
-import junit.framework.TestCase;
 import edu.uci.ics.crawler4j.url.URLCanonicalizer;
+import junit.framework.TestCase;
 
 public class URLCanonicalizerTest extends TestCase {
 

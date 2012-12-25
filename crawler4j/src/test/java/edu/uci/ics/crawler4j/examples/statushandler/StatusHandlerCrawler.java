@@ -17,13 +17,12 @@
 
 package edu.uci.ics.crawler4j.examples.statushandler;
 
-import java.util.regex.Pattern;
-
-import org.apache.http.HttpStatus;
-
 import edu.uci.ics.crawler4j.crawler.Page;
 import edu.uci.ics.crawler4j.crawler.WebCrawler;
 import edu.uci.ics.crawler4j.url.WebURL;
+import org.apache.http.HttpStatus;
+
+import java.util.regex.Pattern;
 
 /**
  * @author Yasser Ganjisaffar <lastname at gmail dot com>

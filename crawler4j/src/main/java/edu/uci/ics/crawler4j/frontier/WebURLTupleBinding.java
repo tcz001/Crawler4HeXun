@@ -20,7 +20,6 @@ package edu.uci.ics.crawler4j.frontier;
 import com.sleepycat.bind.tuple.TupleBinding;
 import com.sleepycat.bind.tuple.TupleInput;
 import com.sleepycat.bind.tuple.TupleOutput;
-
 import edu.uci.ics.crawler4j.url.WebURL;
 
 /**

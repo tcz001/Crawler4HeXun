@@ -17,14 +17,14 @@
 
 package edu.uci.ics.crawler4j.examples.imagecrawler;
 
-import java.io.File;
-import java.util.regex.Pattern;
-
 import edu.uci.ics.crawler4j.crawler.Page;
 import edu.uci.ics.crawler4j.crawler.WebCrawler;
 import edu.uci.ics.crawler4j.parser.BinaryParseData;
 import edu.uci.ics.crawler4j.url.WebURL;
 import edu.uci.ics.crawler4j.util.IO;
+
+import java.io.File;
+import java.util.regex.Pattern;
 
 /**
  * @author Yasser Ganjisaffar <lastname at gmail dot com>

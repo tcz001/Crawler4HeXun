@@ -17,9 +17,9 @@
 
 package edu.uci.ics.crawler4j.fetcher;
 
-import java.util.concurrent.TimeUnit;
-
 import org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager;
+
+import java.util.concurrent.TimeUnit;
 
 public class IdleConnectionMonitorThread extends Thread {
     
